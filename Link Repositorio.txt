@@ -1,0 +1,7 @@
+Link Repositorio GITHUB
+
+https://github.com/Marifuse/Rick-And-Morty-Nuxt
+
+Link GITHUB PAGES
+
+https://marifuse.github.io/Rick-And-Morty-Nuxt/

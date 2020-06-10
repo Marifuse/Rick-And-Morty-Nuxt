@@ -4,13 +4,13 @@
       <v-row>
         <v-col
           v-for="character in characters"
-          :key="character"
+          :key='character'
           cols="12"
           lg="4"
           md="4"
           sm="4"
         >
-          <v-card class="pa-2" max-width="400">
+          <v-card class="pa-2 card-container" max-width="400">
             <v-img class="white--text align-end" height="200px" :src="character.imagen" />
             <v-card-text class="text--primary">
               <div>{{ character.nombre }}</div>
@@ -57,3 +57,13 @@ export default {
   })
 }
 </script>
+
+<style>
+.app-container {
+  background-color: #FF1744 !important;
+}
+.card-container {
+  background-color: #880E4F !important;
+  border: 1px solid black;
+}
+</style>
