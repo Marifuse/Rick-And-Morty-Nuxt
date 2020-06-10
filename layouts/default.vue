@@ -101,12 +101,17 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Eventos',
           to: '/Events'
+        },
+        {
+          icon: 'mdi-beaker',
+          title: 'Characters',
+          to: '/Characters'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Rick & Morty'
     }
   },
   components: {

@@ -21,26 +21,11 @@
         class="red accent-1 lighten-2 py-4 text-center white--text"
         cols="12"
       >
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Marifuse</strong>
       </v-col>
     </v-row>
   </v-footer>
 </template>
-
-<script>
-export default {
-  data: () => ({
-    links: [
-      'Home',
-      'About Us',
-      'Team',
-      'Services',
-      'Blog',
-      'Contact Us'
-    ]
-  })
-}
-</script>
 
 <script>
 export default {
